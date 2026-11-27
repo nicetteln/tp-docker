@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS tasks (id SERIAL PRIMARY KEY, title VARCHAR(200) NOT NULL, done BOOLEAN NOT NULL DEFAULT FALSE);
+INSERT INTO tasks (title, done) VALUES ('Lire le cours Docker', FALSE), ('Faire le TP4', FALSE);
